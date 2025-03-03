@@ -364,7 +364,7 @@ box-shadow:  0 0 25px transparent;
 
 }
 ::-webkit-scrollbar{
-    width: 15px;
+    width: 12px;
 
 }
 ::-webkit-scrollbar-thumb{
@@ -373,7 +373,7 @@ box-shadow:  0 0 25px transparent;
 }
 ::-webkit-scrollbar-track{
     background-color: var(--bg-color);
-    width: 50px;
+    width: 25px;
 }
 .services{
     background-color: var(--bg-color);
@@ -817,6 +817,36 @@ input ,textarea{
       .footer{
         padding: 2rem 3%;
       }
+
+
+
+      .info-contact .info-icons{
+      
+       
+    
+      
+        h4{
+            font-size: 1rem;
+            padding-bottom: 5px;
+        }
+        p{
+            font-size: 1rem ;
+        }
+     
+    }
+    
+    .i{
+       
+    
+        margin-right: 5px;
+        i{
+            font-size: 1.3rem;
+            color: var(--main-color); 
+            padding: 10px;
+          
+          
+        }
+    }
      
 
 }
